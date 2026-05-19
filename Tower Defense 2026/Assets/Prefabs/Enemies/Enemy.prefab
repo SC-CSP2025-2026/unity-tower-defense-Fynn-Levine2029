@@ -595,7 +595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5410525016953305100}
   - component: {fileID: 5061404240448531319}
-  - component: {fileID: 7397963566261953417}
+  - component: {fileID: 2262497623836516877}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -612,7 +612,7 @@ Transform:
   m_GameObject: {fileID: 8153821302094838134}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: 0, z: 0.5}
+  m_LocalPosition: {x: 0.5, y: 0.101, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -632,7 +632,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <Speed>k__BackingField: 2
---- !u!114 &7397963566261953417
+  <Target>k__BackingField: {fileID: 0}
+--- !u!114 &2262497623836516877
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -644,4 +645,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddd86a94c255447088685fa87b76b1b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Rotation>k__BackingField: 90
+  <RotationSpeed>k__BackingField: 90
+  target: {fileID: 0}
