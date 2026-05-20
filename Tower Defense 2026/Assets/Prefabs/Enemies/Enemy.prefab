@@ -595,7 +595,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5410525016953305100}
   - component: {fileID: 5061404240448531319}
-  - component: {fileID: 2262497623836516877}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -633,17 +632,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Speed>k__BackingField: 2
   <Target>k__BackingField: {fileID: 0}
---- !u!114 &2262497623836516877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8153821302094838134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddd86a94c255447088685fa87b76b1b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <RotationSpeed>k__BackingField: 90
-  target: {fileID: 0}
