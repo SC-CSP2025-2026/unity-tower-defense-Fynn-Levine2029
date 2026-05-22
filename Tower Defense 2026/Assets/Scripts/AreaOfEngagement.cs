@@ -4,26 +4,26 @@ using UnityEngine;
 public class AreaOfEngagement : MonoBehaviour
 {
     [field: SerializeField]
-    public List<Transform> Targets { get; private set; } = new();
+    public List<Health> Targets { get; private set; } = new();
 
     void OnTriggerEnter(Collider other)
     {
-        Targets.Add(other.transform);
+        Health targetHealth = other.GetComponentInParent<Health>();
+        if (targetHealth == null) { return; }
+        Targets.Add(targetHealth);
+        targetHealth.OnDeath.AddListener(RemoveOnDeath);
     }
 
     void OnTriggerExit(Collider other)
     {
-        Targets.Remove(other.transform);
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
+        Health targetHealth = other.GetComponentInParent<Health>();
+        if (targetHealth == null) { return; }
+        Targets.Remove(targetHealth);
+        targetHealth.OnDeath.RemoveListener(RemoveOnDeath);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void RemoveOnDeath(Health targetHealth)
     {
-        
+        Targets.Remove(targetHealth);
     }
 }
