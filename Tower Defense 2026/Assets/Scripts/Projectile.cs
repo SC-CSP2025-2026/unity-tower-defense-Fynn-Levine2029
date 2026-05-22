@@ -28,6 +28,7 @@ public class Projectile : MonoBehaviour
         float distance = Vector3.Distance(transform.position, Target.transform.position);
         if (distance <= Mathf.Epsilon)
         {
+            Debug.Log("hit enemy");
             Health healthComponent = Target.GetComponentInParent<Health>();
             if (healthComponent != null)
             {
