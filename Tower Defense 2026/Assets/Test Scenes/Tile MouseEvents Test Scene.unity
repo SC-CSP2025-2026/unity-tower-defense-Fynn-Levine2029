@@ -1708,6 +1708,10 @@ PrefabInstance:
       propertyPath: <TargetGrid>k__BackingField
       value: 
       objectReference: {fileID: 833080695}
+    - target: {fileID: 5179998313668088039, guid: 28946f3323d4b4df98a09488b2827b46, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.201
+      objectReference: {fileID: 0}
     - target: {fileID: 6769309596387721720, guid: 28946f3323d4b4df98a09488b2827b46, type: 3}
       propertyPath: m_Name
       value: Tile Cursor
@@ -1722,7 +1726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8382520723903075655, guid: 28946f3323d4b4df98a09488b2827b46, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.201
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8382520723903075655, guid: 28946f3323d4b4df98a09488b2827b46, type: 3}
       propertyPath: m_LocalPosition.z

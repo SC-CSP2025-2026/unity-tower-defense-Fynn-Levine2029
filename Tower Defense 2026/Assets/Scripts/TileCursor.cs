@@ -38,6 +38,10 @@ public class TileCursor : MonoBehaviour
 
     public void StopListeningToTilesIn(GameObject grid)
     {
+        if (grid == null)
+        {
+            return; // we've quit the scene;
+        }
         foreach (TileController tile in grid.GetComponentsInChildren<TileController>())
         {
             tile.OnCursorEnter.RemoveListener(HandleTileEntered);
