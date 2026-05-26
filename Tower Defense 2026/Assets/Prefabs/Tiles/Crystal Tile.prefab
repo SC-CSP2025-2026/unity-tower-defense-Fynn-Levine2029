@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3831656735481987459}
   - component: {fileID: 3890987558942495744}
   - component: {fileID: 2305673443849523362}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3924927319437431112}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Crystal Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}

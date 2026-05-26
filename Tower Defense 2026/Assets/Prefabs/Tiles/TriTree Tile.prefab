@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2666994911888382379}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TriTree Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 4657158208231930313}
   - component: {fileID: 9098587698051874491}
   - component: {fileID: 6347274723386105153}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}

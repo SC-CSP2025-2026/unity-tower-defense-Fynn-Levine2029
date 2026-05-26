@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2103664207073886001}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rock Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 623869646753687088}
   - component: {fileID: 7281955378872536605}
   - component: {fileID: 2370015139923183996}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}

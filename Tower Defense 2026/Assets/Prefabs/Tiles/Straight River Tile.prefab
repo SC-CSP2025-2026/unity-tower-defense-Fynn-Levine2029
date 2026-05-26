@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1859683338690940407}
   - component: {fileID: 2845786746664492967}
   - component: {fileID: 230494890261518597}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7948192831994739280}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Straight River Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
