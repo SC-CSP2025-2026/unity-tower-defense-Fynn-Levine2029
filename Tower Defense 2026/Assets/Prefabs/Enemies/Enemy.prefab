@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bfe7a63a74a340c9a8acc70a91d46e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Speed>k__BackingField: 2
+  <Speed>k__BackingField: 1.75
   <Target>k__BackingField: {fileID: 0}
 --- !u!114 &1025117214849453218
 MonoBehaviour:
@@ -703,3 +703,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <BaseHealth>k__BackingField: 2
   <Damage>k__BackingField: 0
+  <OnDeath>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
