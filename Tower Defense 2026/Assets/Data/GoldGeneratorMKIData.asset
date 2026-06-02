@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 57ab27f84ea874a208cc99ca5113ee15, type: 3}
-  m_Name: BallistaData
+  m_Name: GoldGeneratorMKIData
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Ballista
-  <Cost>k__BackingField: 200
-  <BuildingPrefab>k__BackingField: {fileID: 3139862954965212149, guid: db1edd1c0221049dcb2b46f857e1d9bb, type: 3}
+  <Name>k__BackingField: Gold Generator V2
+  <Cost>k__BackingField: 100
+  <BuildingPrefab>k__BackingField: {fileID: 5956773154892592312, guid: 0bb82c7d324cb4bd5a4c3aa6da49108f, type: 3}
