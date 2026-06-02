@@ -78,8 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44f4cd086983e4753bfc1b94e8ea59c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <Delay>k__BackingField: 8
-  <Gold>k__BackingField: 4
+  <Delay>k__BackingField: 6
+  <Gold>k__BackingField: 3
   <Controller>k__BackingField: {fileID: 0}
 --- !u!1001 &2738587521362218156
 PrefabInstance:
