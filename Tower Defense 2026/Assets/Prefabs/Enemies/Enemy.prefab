@@ -701,7 +701,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d108531f8d3b416ea359381d16ca62e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <BaseHealth>k__BackingField: 5
+  <BaseHealth>k__BackingField: 3
   <Damage>k__BackingField: 0
   <OnDeath>k__BackingField:
     m_PersistentCalls:
