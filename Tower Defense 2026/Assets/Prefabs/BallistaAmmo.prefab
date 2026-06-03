@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <Speed>k__BackingField: 25
-  <Damage>k__BackingField: 0.001
+  <Damage>k__BackingField: 0.01
   <Target>k__BackingField: {fileID: 0}
 --- !u!1001 &6106669321907131876
 PrefabInstance:
