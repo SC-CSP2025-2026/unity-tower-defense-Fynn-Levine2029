@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: GoldGeneratorMKIData
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Gold Generator V2
-  <Cost>k__BackingField: 100
+  <Cost>k__BackingField: 75
   <BuildingPrefab>k__BackingField: {fileID: 5956773154892592312, guid: 0bb82c7d324cb4bd5a4c3aa6da49108f, type: 3}

@@ -98,7 +98,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <OnEnemyHit>k__BackingField:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1337335234896617664}
+        m_TargetAssemblyTypeName: TowerController, Assembly-CSharp
+        m_MethodName: ApplyHit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3140466306583844574
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2628346241102840692}
+  - component: {fileID: 1337335234896617664}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -132,6 +145,20 @@ Transform:
   - {fileID: 684014639675414833}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1337335234896617664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3140466306583844574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60f0ad31e66e4afe9e02cd0846510b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <BaseHealth>k__BackingField: 5
+  <Damage>k__BackingField: 0
 --- !u!1 &4056180724003435361
 GameObject:
   m_ObjectHideFlags: 0
